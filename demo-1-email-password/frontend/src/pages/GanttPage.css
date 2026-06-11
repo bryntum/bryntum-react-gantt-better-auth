@@ -1,0 +1,47 @@
+.gantt-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.gantt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  flex-shrink: 0;
+}
+
+.gantt-header-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #1a1a2e;
+}
+
+.gantt-header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gantt-user-info {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.gantt-container {
+  flex: 1;
+  overflow: hidden;
+}
+
+.gantt-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #6b7280;
+  font-size: 0.9rem;
+}

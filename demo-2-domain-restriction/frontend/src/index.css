@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+@import "@bryntum/gantt/fontawesome/css/fontawesome.css";
+@import "@bryntum/gantt/fontawesome/css/solid.css";
+@import "@bryntum/gantt/gantt.css";
+@import "@bryntum/gantt/svalbard-light.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.b-widget {
+  font-family: "Poppins", sans-serif;
+}
