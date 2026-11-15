@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
-import { BryntumButton, BryntumGantt, type BryntumGanttProps } from '@bryntum/gantt-react';
-import type { TaskModelConfig, DependencyModelConfig } from '@bryntum/gantt';
+import { BryntumButton } from '@bryntum/core-react-enterprise';
+import { BryntumGantt, type BryntumGanttProps } from '@bryntum/gantt-react-enterprise';
+import type { TaskModelConfig, DependencyModelConfig } from '@bryntum/gantt-enterprise';
 import { authClient } from '../auth-client';
 import './GanttPage.css';
 

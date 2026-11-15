@@ -13,17 +13,13 @@ A Bryntum React Gantt chart protected by email/password authentication, restrict
 
 ### Installing the Bryntum Gantt component
 
-If you're using the free trial, install the public Bryntum Gantt trial package and the React wrapper:
+The frontend uses the Bryntum Gantt React wrapper, which `npm run setup` installs:
 
 ```sh
-npm install @bryntum/gantt@npm:@bryntum/gantt-trial @bryntum/gantt-react
+npm install @bryntum/gantt-react-enterprise
 ```
 
-If you have a Bryntum license, refer to our [npm Repository Guide](https://bryntum.com/products/gantt/docs/guide/Gantt/npm/repository/private-repository-access) and install the licensed packages:
-
-```sh
-npm install @bryntum/gantt @bryntum/gantt-react
-```
+Bryntum packages are on the public npm registry, so you don't need to log in. The Enterprise tier runs as a fully functional trial for 14 days without a license key. [Request a free trial key](https://bryntum.com/download/) to extend the trial to 45 days. If you have a Bryntum license, add your license key as described in the [licensing guide](https://bryntum.com/docs/guide/Core/licensing).
 
 ## Setup
 
