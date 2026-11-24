@@ -1,12 +1,12 @@
 import 'dotenv/config';
 import { betterAuth } from 'better-auth';
 import { emailOTP } from 'better-auth/plugins';
-import nodemailer from 'nodemailer';
+import nodemailer, { type Transporter } from 'nodemailer';
 import db from './db.js';
 
-let cachedTransporter: nodemailer.Transporter | null = null;
+let cachedTransporter: Transporter | null = null;
 
-async function getTransporter(): Promise<nodemailer.Transporter> {
+async function getTransporter(): Promise<Transporter> {
     if (cachedTransporter) return cachedTransporter;
 
     if (process.env.SMTP_HOST) {
