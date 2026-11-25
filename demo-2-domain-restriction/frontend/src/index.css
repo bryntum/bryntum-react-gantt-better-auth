@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-@import "@bryntum/gantt/fontawesome/css/fontawesome.css";
-@import "@bryntum/gantt/fontawesome/css/solid.css";
-@import "@bryntum/gantt/gantt.css";
-@import "@bryntum/gantt/svalbard-light.css";
+@import "@bryntum/core-enterprise/fontawesome/css/fontawesome.css";
+@import "@bryntum/core-enterprise/fontawesome/css/solid.css";
+@import "@bryntum/gantt-enterprise/gantt.css";
+@import "@bryntum/gantt-enterprise/svalbard-light.css";
 
 *,
 *::before,

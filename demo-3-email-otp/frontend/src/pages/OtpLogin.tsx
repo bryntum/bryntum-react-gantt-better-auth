@@ -1,5 +1,5 @@
 import { useRef, useState, type CSSProperties, type RefObject, type SubmitEvent } from 'react';
-import { BryntumButton, BryntumTextField } from '@bryntum/gantt-react';
+import { BryntumButton, BryntumTextField } from '@bryntum/core-react-enterprise';
 import { authClient } from '../auth-client';
 
 type Step = 'email' | 'otp';

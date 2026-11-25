@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type CSSProperties, type SubmitEvent } from 'react';
-import { BryntumButton, BryntumTextField } from '@bryntum/gantt-react';
+import { BryntumButton, BryntumTextField } from '@bryntum/core-react-enterprise';
 
 interface ApprovedEmail {
   email: string;

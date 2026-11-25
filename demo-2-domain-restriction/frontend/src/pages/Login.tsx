@@ -1,6 +1,6 @@
 import { useRef, useState, type CSSProperties, type SubmitEvent } from 'react';
-import { BryntumTabPanel, type BryntumTabPanelProps } from '@bryntum/gantt-react';
-import type { Button, TextField } from '@bryntum/gantt';
+import { BryntumTabPanel, type BryntumTabPanelProps } from '@bryntum/core-react-enterprise';
+import type { Button, TextField } from '@bryntum/core-enterprise';
 import { authClient } from '../auth-client';
 
 function formatError(msg: string): string {

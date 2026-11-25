@@ -8,8 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@bryntum/gantt": "7.3.2",
-    "@bryntum/gantt-react": "7.3.2",
+    "@bryntum/gantt-react-enterprise": "8.0.1",
     "better-auth": "^1.6.15",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
